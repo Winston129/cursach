@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "SoldData";
+}
+
+<h1>Search Sold by Sold Data</h1>
+
+<form asp-action="Details" method="get">
+    <div class="form-group">
+        <label for="soldDate">Enter Sold Date (YYYY-MM-DD):</label>
+        <input type="text" id="soldDate" name="soldDate" class="form-control" placeholder="YYYY-MM-DD" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cursach", "cursach\cursach.csproj", "{77230677-E133-495E-8F4C-A8332EC55EAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77230677-E133-495E-8F4C-A8332EC55EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77230677-E133-495E-8F4C-A8332EC55EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77230677-E133-495E-8F4C-A8332EC55EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77230677-E133-495E-8F4C-A8332EC55EAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA6125A8-B1BD-4F92-B916-C47BF7D4BAC7}
+	EndGlobalSection
+EndGlobal
