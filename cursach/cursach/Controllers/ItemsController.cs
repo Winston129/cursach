@@ -76,10 +76,13 @@ namespace cursach.Controllers
         // GET: Items/Create
         public IActionResult Create()
         {
-            ViewData["AvailableId"] = new SelectList(_context.Availables, "AvailableId", "AvailableId");
+            ViewData["AvailableId"] = new SelectList(_context.Availables, "AvailableId", "DateListed");
             ViewData["ItemTypeId"] = new SelectList(_context.ItemTypes, "ItemTypeId", "NameType");
-            ViewData["ReservedId"] = new SelectList(_context.Reserveds, "ReservedId", "ReservedId");
-            ViewData["SoldId"] = new SelectList(_context.Solds, "SoldId", "SoldId");
+            ViewData["ReservedId"] = new SelectList(_context.Reserveds, "ReservedId", "ReservedDate");
+            ViewData["SoldId"] = new SelectList(_context.Solds, "SoldId", "SaleDate");
+
+            ViewData["StatusOptions"] = new SelectList(new List<string> { "Available", "Reserved", "Sold" });
+
             return View();
         }
 
@@ -96,10 +99,10 @@ namespace cursach.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AvailableId"] = new SelectList(_context.Availables, "AvailableId", "AvailableId", item.AvailableId);
+            ViewData["AvailableId"] = new SelectList(_context.Availables, "AvailableId", "DateListed", item.AvailableId);
             ViewData["ItemTypeId"] = new SelectList(_context.ItemTypes, "ItemTypeId", "ItemTypeId", item.ItemTypeId);
-            ViewData["ReservedId"] = new SelectList(_context.Reserveds, "ReservedId", "ReservedId", item.ReservedId);
-            ViewData["SoldId"] = new SelectList(_context.Solds, "SoldId", "SoldId", item.SoldId);
+            ViewData["ReservedId"] = new SelectList(_context.Reserveds, "ReservedId", "ReservedDate", item.ReservedId);
+            ViewData["SoldId"] = new SelectList(_context.Solds, "SoldId", "SaleDate", item.SoldId);
 
             return View(item);
         }

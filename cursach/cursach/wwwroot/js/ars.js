@@ -1,22 +1,26 @@
-﻿// При изменении выбора Available, Reserved или Sold
-document.querySelectorAll('select').forEach(item => {
-    item.addEventListener('change', ()=>{
-        var statusSelect = document.getElementById("Status");
+﻿document.addEventListener("DOMContentLoaded", ()=>{
+    document.getElementById('Status').addEventListener("change", function () {
+        var Available = document.getElementById("Available");
+        var Reserved = document.getElementById("Reserved");
+        var Sold = document.getElementById("Sold");
 
-        // Получаем текущие значения выбранных элементов
-        var available = document.querySelector('select[name="AvailableId"]').value;
-        var reserved = document.querySelector('select[name="ReservedId"]').value;
-        var sold = document.querySelector('select[name="SoldId"]').value;
+        var select_status = this.value;
+        console.log(select_status);
 
-            // Определяем, что выбрать для Status
-        if (available) {
-            statusSelect.value = "Available";
+        if (select_status == "Available") {
+            Available.style.display = "flex";
+            Reserved.style.display = "none";
+            Sold.style.display = "none";
         }
-        else if (reserved) {
-            statusSelect.value = "Reserved";
+        else if (select_status == "Reserved") {
+            Available.style.display = "none";
+            Reserved.style.display = "flex";
+            Sold.style.display = "none";
         }
-        else if (sold) {
-            statusSelect.value = "Sold";
+        else if (select_status == "Sold") {
+            Available.style.display = "none";
+            Reserved.style.display = "none";
+            Sold.style.display = "flex";
         }
     });
 });

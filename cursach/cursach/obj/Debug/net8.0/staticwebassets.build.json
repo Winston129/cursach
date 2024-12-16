@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fru/rBc/86aFVCOq6xYQYHGMN13xAB/FE1Vii6TksX0=",
+  "Hash": "USINuJ2w+LxxhqzgYgdrk31aJO3rbWKothEOUk5nRQI=",
   "Source": "cursach",
   "BasePath": "_content/cursach",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "F:\\University2\\3.1 курс\\курсач\\cursach\\cursach\\wwwroot\\js\\ars.js",
+      "SourceId": "cursach",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\University2\\3.1 курс\\курсач\\cursach\\cursach\\wwwroot\\",
+      "BasePath": "_content/cursach",
+      "RelativePath": "js/ars.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ars.js"
     },
     {
       "Identity": "F:\\University2\\3.1 курс\\курсач\\cursach\\cursach\\wwwroot\\js\\site.js",
