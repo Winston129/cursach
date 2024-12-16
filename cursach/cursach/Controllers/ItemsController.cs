@@ -26,7 +26,7 @@ namespace cursach.Controllers
             return View(await cursachContext.ToListAsync());
         }
 
-        // GET: Items/Details?itemName
+        // POST: Items/Details?itemName
         public async Task<IActionResult> Details(string itemName)
         {
             if (string.IsNullOrWhiteSpace(itemName))
@@ -62,6 +62,13 @@ namespace cursach.Controllers
 
             ViewData["StatusOptions"] = new SelectList(new List<string> { "Available", "Reserved", "Sold" });
 
+            var itemTypes = _context.ItemTypes.ToList();
+            Console.WriteLine("Item Types:");
+            foreach (var type in itemTypes)
+            {
+                Console.WriteLine($"ID: {type.ItemTypeId}, Name: {type.NameType}");
+            }
+
             return View();
         }
 
@@ -77,14 +84,17 @@ namespace cursach.Controllers
                 // Проверяем статус
                 if (item.Status == "Available")
                 {
+                    // Создаем новый объект Available с заданной датой
                     var available = new Available
                     {
-                        DateListed = DateOnly.FromDateTime(DateTime.Now)
+                        DateListed = DateOnly.FromDateTime(DateTime.Now) // Если дата не передана, используем текущую дату
                     };
 
+                    // Добавляем объект в контекст
                     _context.Availables.Add(available);
-                    await _context.SaveChangesAsync();
+                    await _context.SaveChangesAsync(); // Сохраняем изменения в базе данных
 
+                    // Присваиваем доступный ID элементу
                     item.AvailableId = available.AvailableId;
                 }
                 else if (item.Status == "Reserved")

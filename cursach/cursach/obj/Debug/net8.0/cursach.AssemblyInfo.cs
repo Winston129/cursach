@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cursach")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+066240e71d854025307b3fc5b593a84258e6ee83")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6f0f7255907ec18e74cf7c181b4ba40f501b17c")]
 [assembly: System.Reflection.AssemblyProductAttribute("cursach")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cursach")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

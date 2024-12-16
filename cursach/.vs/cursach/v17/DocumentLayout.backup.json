@@ -7,16 +7,28 @@
       "RelativeMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|solutionrelative:cursach\\views\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\models\\reserved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|solutionrelative:cursach\\models\\reserved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|solutionrelative:cursach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|solutionrelative:cursach\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|solutionrelative:cursach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|solutionrelative:cursach\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\models\\available.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|solutionrelative:cursach\\models\\available.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\models\\reserved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|solutionrelative:cursach\\models\\reserved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\models\\sold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77230677-E133-495E-8F4C-A8332EC55EAB}|cursach\\cursach.csproj|solutionrelative:cursach\\models\\sold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,17 +41,8 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Reserved.cs",
-              "DocumentMoniker": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Models\\Reserved.cs",
-              "RelativeDocumentMoniker": "cursach\\Models\\Reserved.cs",
-              "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Models\\Reserved.cs",
-              "RelativeToolTip": "cursach\\Models\\Reserved.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T18:35:02.383Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -49,7 +52,7 @@
               "RelativeDocumentMoniker": "cursach\\Views\\Items\\Create.cshtml",
               "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Views\\Items\\Create.cshtml*",
               "RelativeToolTip": "cursach\\Views\\Items\\Create.cshtml*",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwEUAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-15T22:05:38.356Z",
               "EditorCaption": ""
@@ -62,22 +65,74 @@
               "RelativeDocumentMoniker": "cursach\\Controllers\\ItemsController.cs",
               "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Controllers\\ItemsController.cs",
               "RelativeToolTip": "cursach\\Controllers\\ItemsController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAkwEAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAkwH8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T22:48:40.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "cursach\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "cursach\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwFIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-14T10:09:34.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Available.cs",
+              "DocumentMoniker": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Models\\Available.cs",
+              "RelativeDocumentMoniker": "cursach\\Models\\Available.cs",
+              "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Models\\Available.cs",
+              "RelativeToolTip": "cursach\\Models\\Available.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:51:14.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reserved.cs",
+              "DocumentMoniker": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Models\\Reserved.cs",
+              "RelativeDocumentMoniker": "cursach\\Models\\Reserved.cs",
+              "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Models\\Reserved.cs",
+              "RelativeToolTip": "cursach\\Models\\Reserved.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:51:40.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sold.cs",
+              "DocumentMoniker": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Models\\Sold.cs",
+              "RelativeDocumentMoniker": "cursach\\Models\\Sold.cs",
+              "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Models\\Sold.cs",
+              "RelativeToolTip": "cursach\\Models\\Sold.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:51:45.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Item.cs",
+              "DocumentMoniker": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "cursach\\Models\\Item.cs",
+              "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach\\cursach\\Models\\Item.cs",
+              "RelativeToolTip": "cursach\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T21:25:05.076Z",
               "EditorCaption": ""
             }
           ]
