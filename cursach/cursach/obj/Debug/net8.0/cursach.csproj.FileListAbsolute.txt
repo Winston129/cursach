@@ -266,3 +266,4 @@ F:\University2\3.1 курс\курсач\cursach\cursach\bin\Debug\net8.0\runtim
 F:\University2\3.1 курс\курсач\cursach\cursach\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 F:\University2\3.1 курс\курсач\cursach\cursach\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 F:\University2\3.1 курс\курсач\cursach\cursach\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+F:\University2\3.1 курс\курсач\cursach\cursach\obj\Debug\net8.0\cursach.sourcelink.json

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "USINuJ2w+LxxhqzgYgdrk31aJO3rbWKothEOUk5nRQI=",
+  "Hash": "5yAil9Tb2F927aSBoEBHeH9lxIbmX9B7nO/QnoDtK/Y=",
   "Source": "cursach",
   "BasePath": "_content/cursach",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\University2\\3.1 курс\\курсач\\cursach\\cursach\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\cursach.bundle.scp.css"
+    },
+    {
+      "Identity": "F:\\University2\\3.1 курс\\курсач\\cursach\\cursach\\wwwroot\\css\\ars.css",
+      "SourceId": "cursach",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\University2\\3.1 курс\\курсач\\cursach\\cursach\\wwwroot\\",
+      "BasePath": "_content/cursach",
+      "RelativePath": "css/ars.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ars.css"
     },
     {
       "Identity": "F:\\University2\\3.1 курс\\курсач\\cursach\\cursach\\wwwroot\\css\\site.css",

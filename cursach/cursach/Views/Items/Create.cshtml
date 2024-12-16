@@ -4,6 +4,7 @@
     ViewData["Title"] = "Create";
 }
 
+<link rel="stylesheet" href="~/css/ars.css" asp-append-version="true" />
 <h1>Create</h1>
 
 <h4>Item</h4>
@@ -36,18 +37,18 @@
                 <select asp-for="Status" class="form-control" id="Status" asp-items="@(ViewData["StatusOptions"] as IEnumerable<SelectListItem>)"></select>
             </div>
 
-            <div class="form-group" id="Available" style="display: none;">
-                <label asp-for="AvailableId" class="control-label"></label>
+            <div class="form-group ARS" id="Available" style="display: none;">
+                <label asp-for="AvailableId" class="control-label">Available</label>
                 <select asp-for="AvailableId" class="form-control" asp-items="@(ViewData["AvailableId"] as IEnumerable<SelectListItem>)"></select>
             </div>
 
-            <div class="form-group" id="Reserved" style="display: none;">
-                <label asp-for="ReservedId" class="control-label"></label>
+            <div class="form-group ARS" id="Reserved" style="display: none;">
+                <label asp-for="ReservedId" class="control-label">Reserved</label>
                 <select asp-for="ReservedId" class="form-control" asp-items="@(ViewData["ReservedId"] as IEnumerable<SelectListItem>)"></select>
             </div>
 
-            <div class="form-group" id="Sold" style="display: none;">
-                <label asp-for="SoldId" class="control-label"></label>
+            <div class="form-group ARS" id="Sold" style="display: none;">
+                <label asp-for="SoldId" class="control-label">Sold</label>
                 <select asp-for="SoldId" class="form-control" asp-items="@(ViewData["SoldId"] as IEnumerable<SelectListItem>)"></select>
             </div>
 

@@ -51,27 +51,6 @@ namespace cursach.Controllers
             return View();
         }
 
-        // GET: Items/Details/5
-        //public async Task<IActionResult> Details(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var item = await _context.Items
-        //        .Include(i => i.Available)
-        //        .Include(i => i.ItemType)
-        //        .Include(i => i.Reserved)
-        //        .Include(i => i.Sold)
-        //        .FirstOrDefaultAsync(m => m.ItemId == id);
-        //    if (item == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(item);
-        //}
 
         // GET: Items/Create
         public IActionResult Create()
@@ -95,10 +74,51 @@ namespace cursach.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(item);
+                // Проверяем статус
+                if (item.Status == "Available")
+                {
+                    var available = new Available
+                    {
+                        DateListed = DateOnly.FromDateTime(DateTime.Now)
+                    };
+
+                    _context.Availables.Add(available);
+                    await _context.SaveChangesAsync();
+
+                    item.AvailableId = available.AvailableId;
+                }
+                else if (item.Status == "Reserved")
+                {
+                    var reserved = new Reserved
+                    {
+                        ReservedDate = DateOnly.FromDateTime(DateTime.Now)
+                    };
+
+                    _context.Reserveds.Add(reserved);
+                    await _context.SaveChangesAsync();
+
+                    item.ReservedId = reserved.ReservedId;
+                }
+                else if (item.Status == "Sold")
+                {
+                    var sold = new Sold
+                    {
+                        SaleDate = DateOnly.FromDateTime(DateTime.Now),
+                        ClientId = 1 // Укажите корректный ClientId
+                    };
+
+                    _context.Solds.Add(sold);
+                    await _context.SaveChangesAsync();
+
+                    item.SoldId = sold.SoldId;
+                }
+
+                _context.Items.Add(item);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+            // Обновляем ViewData для отображения списка в случае ошибки
             ViewData["AvailableId"] = new SelectList(_context.Availables, "AvailableId", "DateListed", item.AvailableId);
             ViewData["ItemTypeId"] = new SelectList(_context.ItemTypes, "ItemTypeId", "ItemTypeId", item.ItemTypeId);
             ViewData["ReservedId"] = new SelectList(_context.Reserveds, "ReservedId", "ReservedDate", item.ReservedId);
@@ -106,6 +126,8 @@ namespace cursach.Controllers
 
             return View(item);
         }
+
+
 
         // GET: Items/Edit/5
         public async Task<IActionResult> Edit(int? id)
