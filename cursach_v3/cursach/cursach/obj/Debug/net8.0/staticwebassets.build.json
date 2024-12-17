@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nxszMvuCYgtNzCnUN62zFO3OOSIaWIus45GG2RwzlSE=",
+  "Hash": "K8ZpxFwnjZg7PqTYQDhBvZb5NfH2wRkmX2lzTN+0sCU=",
   "Source": "cursach",
   "BasePath": "_content/cursach",
   "Mode": "Default",
@@ -1195,6 +1195,25 @@
       "OriginalItemSpec": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\cursach.bundle.scp.css"
     },
     {
+      "Identity": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\wwwroot\\css\\ars.css",
+      "SourceId": "cursach",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\wwwroot\\",
+      "BasePath": "_content/cursach",
+      "RelativePath": "css/ars.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ars.css"
+    },
+    {
       "Identity": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\wwwroot\\css\\site.css",
       "SourceId": "cursach",
       "SourceType": "Discovered",
@@ -1231,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\wwwroot\\js\\ars.js",
+      "SourceId": "cursach",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\wwwroot\\",
+      "BasePath": "_content/cursach",
+      "RelativePath": "js/ars.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ars.js"
     },
     {
       "Identity": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\wwwroot\\js\\site.js",

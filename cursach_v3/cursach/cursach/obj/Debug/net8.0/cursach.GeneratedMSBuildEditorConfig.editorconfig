@@ -70,6 +70,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/University2/3.1 курс/курсач/cursach_v3/cursach/cursach/Views/Clients/SelectName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xTZWxlY3ROYW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/University2/3.1 курс/курсач/cursach_v3/cursach/cursach/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -96,6 +100,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/University2/3.1 курс/курсач/cursach_v3/cursach/cursach/Views/Items/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/University2/3.1 курс/курсач/cursach_v3/cursach/cursach/Views/Items/SelectName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcU2VsZWN0TmFtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/University2/3.1 курс/курсач/cursach_v3/cursach/cursach/Views/ItemTypes/Create.cshtml]
@@ -138,6 +146,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2ZWRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/University2/3.1 курс/курсач/cursach_v3/cursach/cursach/Views/Reserveds/SelectName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2ZWRzXFNlbGVjdE5hbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/University2/3.1 курс/курсач/cursach_v3/cursach/cursach/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -168,6 +180,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/University2/3.1 курс/курсач/cursach_v3/cursach/cursach/Views/Solds/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/University2/3.1 курс/курсач/cursach_v3/cursach/cursach/Views/Solds/SelectName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sZHNcU2VsZWN0TmFtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/University2/3.1 курс/курсач/cursach_v3/cursach/cursach/Views/_ViewImports.cshtml]

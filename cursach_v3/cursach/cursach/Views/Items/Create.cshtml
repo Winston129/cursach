@@ -4,6 +4,7 @@
     ViewData["Title"] = "Create";
 }
 
+<link rel="stylesheet" href="~/css/ars.css" asp-append-version="true" />
 <h1>Create</h1>
 
 <h4>Item</h4>
@@ -12,40 +13,79 @@
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <!--
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                    <p>@error.ErrorMessage</p>
+            }
+            -->
+
             <div class="form-group">
                 <label asp-for="ItemName" class="control-label"></label>
                 <input asp-for="ItemName" class="form-control" />
                 <span asp-validation-for="ItemName" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="ItemTypeId" class="control-label"></label>
-                <select asp-for="ItemTypeId" class ="form-control" asp-items="ViewBag.ItemTypeId"></select>
+                <select asp-for="ItemTypeId" class="form-control" asp-items="@(ViewData["ItemTypeId"] as IEnumerable<SelectListItem>)"></select>
             </div>
+
             <div class="form-group">
                 <label asp-for="Price" class="control-label"></label>
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="AvailableId" class="control-label"></label>
-                <select asp-for="AvailableId" class ="form-control" asp-items="ViewBag.AvailableId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="ReservedId" class="control-label"></label>
-                <select asp-for="ReservedId" class ="form-control" asp-items="ViewBag.ReservedId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="SoldId" class="control-label"></label>
-                <select asp-for="SoldId" class ="form-control" asp-items="ViewBag.SoldId"></select>
-            </div>
-            <div class="form-group">
+
+            <!--STATUS-->
+            <div class="form-group" id="Select_Status">
                 <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
+                <select asp-for="Status" class="form-control" id="Status" asp-items="@(ViewData["StatusOptions"] as IEnumerable<SelectListItem>)"></select>
             </div>
+            
+            <!--Available-->
+            <div class="form-group ARS" id="Available">
+                <label asp-for="Available.DateListed" class="control-label">Date Listed</label>
+                <input asp-for="Available.DateListed" class="form-control" type="date" />
+                <span asp-validation-for="Available.DateListed" class="text-danger"></span>
+            </div>
+
+            <!--Reserved-->
+            <div class="form-group ARS" id="Reserved" style="display: none;">
+
+                <!--<label asp-for="ReservedId" class="control-label">Reserved</label>-->
+                <label asp-for="Reserved.ClientId" class="control-label">Client</label>
+                <select asp-for="Reserved.ClientId" class="form-control" asp-items="@(ViewData["ClientId"] as IEnumerable<SelectListItem>)"></select>
+
+                <label asp-for="Reserved.ReservedDate" class="control-label">Reserved Date</label>
+                <input asp-for="Reserved.ReservedDate" class="form-control" type="date" />
+                <span asp-validation-for="Reserved.ReservedDate" class="text-danger"></span>
+
+                <label asp-for="Reserved.ExpirationDate" class="control-label">Expiration Date</label>
+                <input asp-for="Reserved.ExpirationDate" class="form-control" type="date" />
+                <span asp-validation-for="Reserved.ExpirationDate" class="text-danger"></span>
+
+                <label asp-for="Reserved.InterestRate" class="control-label">Interest Rate</label>
+                <input asp-for="Reserved.InterestRate" class="form-control" type="number" />
+                <span asp-validation-for="Reserved.InterestRate" class="text-danger"></span>
+            </div>
+
+            <!--Sold-->
+            <div class="form-group ARS" id="Sold" style="display: none;">
+                <!--<label asp-for="SoldId" class="control-label">Sold</label>-->
+                <label asp-for="Sold.ClientId" class="control-label">Client</label>
+                <select asp-for="Sold.ClientId" class="form-control" asp-items="@(ViewData["ClientId"] as IEnumerable<SelectListItem>)"></select>
+
+                <label asp-for="Sold.SaleDate" class="control-label">Reserved Date</label>
+                <input asp-for="Sold.SaleDate" class="form-control" type="date" />
+                <span asp-validation-for="Sold.SaleDate" class="text-danger"></span>
+
+            </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
+
         </form>
     </div>
 </div>
@@ -53,7 +93,17 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+<script src="~/js/ars.js"></script>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
+
+
+<!--
+    C      . ///.,n mn                 g hbmdzkv
+                                   i  gvbn\,
+
+-->

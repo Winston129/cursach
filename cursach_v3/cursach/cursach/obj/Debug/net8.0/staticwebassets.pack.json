@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\cursach.bundle.scp.css"
     },
     {
+      "Id": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\wwwroot\\css\\ars.css",
+      "PackagePath": "staticwebassets\\css\\ars.css"
+    },
+    {
       "Id": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\wwwroot\\js\\ars.js",
+      "PackagePath": "staticwebassets\\js\\ars.js"
     },
     {
       "Id": "F:\\University2\\3.1 курс\\курсач\\cursach_v3\\cursach\\cursach\\wwwroot\\js\\site.js",
