@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB12065-F434-487A-A137-2EE8EC989C22}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\data\\cursachitemscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB12065-F434-487A-A137-2EE8EC989C22}|cursach\\cursach.csproj|solutionrelative:cursach\\data\\cursachitemscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB12065-F434-487A-A137-2EE8EC989C22}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\models\\available.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB12065-F434-487A-A137-2EE8EC989C22}|cursach\\cursach.csproj|solutionrelative:cursach\\models\\available.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB12065-F434-487A-A137-2EE8EC989C22}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FB12065-F434-487A-A137-2EE8EC989C22}|cursach\\cursach.csproj|solutionrelative:cursach\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FB12065-F434-487A-A137-2EE8EC989C22}|cursach\\cursach.csproj|f:\\university2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FB12065-F434-487A-A137-2EE8EC989C22}|cursach\\cursach.csproj|solutionrelative:cursach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 349,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CursachItemsContext.cs",
+              "DocumentMoniker": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\Data\\CursachItemsContext.cs",
+              "RelativeDocumentMoniker": "cursach\\Data\\CursachItemsContext.cs",
+              "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\Data\\CursachItemsContext.cs",
+              "RelativeToolTip": "cursach\\Data\\CursachItemsContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAArwDAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T14:25:17.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "cursach\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "cursach\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEcAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-19T14:16:16.487Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 191,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "cursach\\Models\\Item.cs",
+              "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\Models\\Item.cs",
+              "RelativeToolTip": "cursach\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T14:32:58.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Available.cs",
+              "DocumentMoniker": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\Models\\Available.cs",
+              "RelativeDocumentMoniker": "cursach\\Models\\Available.cs",
+              "ToolTip": "F:\\University2\\3.1 \u043A\u0443\u0440\u0441\\\u043A\u0443\u0440\u0441\u0430\u0447\\cursach_v4\\cursach\\cursach\\Models\\Available.cs",
+              "RelativeToolTip": "cursach\\Models\\Available.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T14:36:07.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

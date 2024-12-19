@@ -1,0 +1,52 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.btn {
+    margin: 5px 0px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+details {
+    display: inline-block; /* Устанавливает, чтобы details занимал только необходимое пространство */
+    position: relative;
+}
+
+    details > summary {
+        cursor: pointer; /* Добавляет курсор как указатель при наведении */
+    }
+
+    details > ul {
+        display: none; /* Скрывает список по умолчанию */
+        padding: 10px;
+        margin: 0;
+        position: absolute; /* Список будет находиться поверх других элементов */
+        left: 0;
+        top: 100%; /* Позиционирование списка относительно summary */
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        list-style-type: none;
+    }
+
+    details[open] > ul {
+        display: block; /* Показывает список, когда элемент открыт */
+    }

@@ -1,0 +1,84 @@
+﻿@model cursach.Models.Item
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<link rel="stylesheet" href="~/css/ars.css" asp-append-version="true" />
+<h1>Edit</h1>
+
+<h4>Item</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ItemId" />
+
+            <div class="form-group">
+                <label asp-for="ItemName" class="control-label"></label>
+                <input asp-for="ItemName" class="form-control" />
+                <span asp-validation-for="ItemName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ItemTypeId" class="control-label"></label>
+                <select asp-for="ItemTypeId" class="form-control" asp-items="@(ViewData["ItemType"] as IEnumerable<SelectListItem>)"></select>
+                <span asp-validation-for="ItemTypeId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" type="number" step="0.01"/>
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <!--STATUS-->
+            <div class="form-group" id="Select_Status">
+                <label asp-for="Status" class="control-label"></label>
+                <select asp-for="Status" class="form-control" asp-items="@(ViewData["StatusOptions"] as IEnumerable<SelectListItem>)"></select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <!--Available-->
+            <div class="form-group ARS" id="Available" style="display: none">
+                <label asp-for="AvailableId" class="control-label">Available</label>
+                <select asp-for="AvailableId" class="form-control" asp-items="@(ViewData["Available"] as IEnumerable<SelectListItem>)">
+                    <option value="">-- Не выбрано --</option>
+                </select>
+                <span asp-validation-for="AvailableId" class="text-danger"></span>
+            </div>
+
+            <!--Reserved-->
+            <div class="form-group ARS" id="Reserved" style="display: none">
+                <label asp-for="ReservedId" class="control-label">Reserved</label>
+                <select asp-for="ReservedId" class="form-control" asp-items="@(ViewData["Reserved"] as IEnumerable<SelectListItem>)">
+                    <option value="">-- Не выбрано --</option>
+                </select>
+                <span asp-validation-for="ReservedId" class="text-danger"></span>
+            </div>
+
+            <!--Sold-->
+            <div class="form-group ARS" id="Sold" style="display: none">
+                <label asp-for="SoldId" class="control-label">Sold</label>
+                <select asp-for="SoldId" class="form-control" asp-items="@(ViewData["Sold"] as IEnumerable<SelectListItem>)">
+                    <option value="">-- Не выбрано --</option>
+                </select>
+                <span asp-validation-for="SoldId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+<script src="~/js/ars.js"></script>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

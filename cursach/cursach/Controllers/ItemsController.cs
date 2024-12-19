@@ -26,6 +26,12 @@ namespace cursach.Controllers
             return View(await cursachContext.ToListAsync());
         }
 
+        // GET: SelectName
+        public IActionResult SelectName()
+        {
+            return View();
+        }
+
         // POST: Items/Details?itemName
         public async Task<IActionResult> Details(string itemName)
         {
@@ -44,11 +50,6 @@ namespace cursach.Controllers
             }
 
             return View(item);
-        }
-
-        public IActionResult SelectName()
-        {
-            return View();
         }
 
 
