@@ -86,7 +86,7 @@ namespace cursach.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ReservedId,LastName,ReservedDate,ExpirationDate,InterestRate")] Reserved reserved)
+        public async Task<IActionResult> Create([Bind("ReservedId,ClientId,ReservedDate,ExpirationDate,InterestRate")] Reserved reserved)
         {
             if (ModelState.IsValid)
             {

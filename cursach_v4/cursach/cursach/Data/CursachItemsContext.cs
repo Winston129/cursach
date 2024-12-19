@@ -34,22 +34,6 @@ public partial class CursachItemsContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-            //modelBuilder.Entity<Child>()
-            //     .HasMany(a => a.Items)       // Available может иметь множество Items
-            //     .WithOne(i => i.Available)   // Каждый Item связан с одним Available
-
-            //    .HasOne(c => c.Parent)
-            //    .WithMany(p => p.Children)
-            //    .HasForeignKey(c => c.ParentId)
-            //    .OnDelete(DeleteBehavior.Cascade); // Каскадное удаление
-            //    .OnDelete(DeleteBehavior.SetNull); // Установка NULL
-
-        //modelBuilder.Entity<Available>()
-        //        .HasMany(a => a.Items)
-        //        .WithOne(i => i.Available)
-        //        .HasForeignKey(c => c.AvailableId)
-        //        .OnDelete(DeleteBehavior.Cascade);
-
         modelBuilder.Entity<Available>(entity =>
         {
             entity.HasKey(e => e.AvailableId).HasName("PK__Availabl__BCFE5BA0F0440B3A");

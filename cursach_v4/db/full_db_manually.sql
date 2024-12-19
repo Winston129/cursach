@@ -51,9 +51,20 @@ VALUES
 (2, '2024-12-05'),
 (3, '2024-12-10');
 
+insert into ItemType (NameType)
+values
+('electronics'),
+('watch'),
+('expensive metal'),
+('books'),
+('archaeological item'),
+('wine');
+
 insert into Item(ItemName, ItemTypeID, Price, AvailableID, ReservedID, SoldID, Status)
 values
-('The Hero with a Thousand Faces', 4, 333.3, 1, null, null, 'Available');
+('The Hero with a Thousand Faces', 4, 333.3, 1, null, null, 'Available'),
+('IPhon21', 1, 9999.99, null, null, 3, 'Reserved'),
+('Chateau Mouton Rothschild', 6, 200.2, null, 2, null, 'Sold');
 
 
 select * from Available;
@@ -61,3 +72,5 @@ select * from Reserved;
 select * from Sold;
 
 select * from Item;
+
+-- truncate table Item;

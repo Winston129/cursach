@@ -56,7 +56,7 @@ CREATE TABLE Item (
     ReservedID INT NULL,                       -- Идентификатор залога, может быть ? NULL
     SoldID INT NULL,                           -- Идентификатор проданной вещи ? NULL
     Status NVARCHAR(20) CHECK (Status IN 
-		('Available', 'Sold', 'Reserved')),      --  Статус вещи
+		('Available', 'Reserved', 'Sold')),      --  Статус вещи
 );
 GO
 
@@ -64,34 +64,40 @@ GO
 -- Вещи в залоге
 ALTER TABLE Reserved
 ADD CONSTRAINT FK_Reserved_Client 
-FOREIGN KEY (ClientID) REFERENCES Client(ClientID);
+FOREIGN KEY (ClientID) REFERENCES Client(ClientID)
+ON DELETE CASCADE;
 GO
 
 -- Проданные вещи
 ALTER TABLE Sold 
 ADD CONSTRAINT FK_Sold_Client 
-FOREIGN KEY (ClientID) REFERENCES Client(ClientID);
+FOREIGN KEY (ClientID) REFERENCES Client(ClientID)
+ON DELETE CASCADE;
 GO
 
 -- Вещи
 ALTER TABLE Item 
 ADD CONSTRAINT FK_Item_ItemType 
-FOREIGN KEY (ItemTypeID) REFERENCES ItemType(ItemTypeID);
+FOREIGN KEY (ItemTypeID) REFERENCES ItemType(ItemTypeID)
+ON DELETE CASCADE;
 GO
 
 ALTER TABLE Item
 ADD CONSTRAINT FK_Item_Available
-FOREIGN KEY (AvailableID) REFERENCES Available(AvailableID);
+FOREIGN KEY (AvailableID) REFERENCES Available(AvailableID)
+ON DELETE  SET NULL;
 GO
 
 ALTER TABLE Item
 ADD CONSTRAINT FK_Item_Reserved
-FOREIGN KEY (ReservedID) REFERENCES Reserved(ReservedID);
+FOREIGN KEY (ReservedID) REFERENCES Reserved(ReservedID)
+ON DELETE  SET NULL;
 GO
 
 ALTER TABLE Item
 ADD CONSTRAINT FK_Item_Sold
-FOREIGN KEY (SoldID) REFERENCES Sold(SoldID);
+FOREIGN KEY (SoldID) REFERENCES Sold(SoldID)
+ON DELETE SET NULL;
 GO
 
 /*
